@@ -1,0 +1,25 @@
+body{
+    /* background-image: url("images/back1.jfif");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: rgb(222, 200, 241);
+}
+
+div{
+    border: 5px;
+    color: black;
+    background-color: rgb(141, 229, 229);
+    height: 50vh;
+    width: 500px;
+    margin: auto ;
+    margin-top: 200px;
+}
+
+h1{
+    text-align: center;
+padding-top: 70px;
+}
+
+h2{
+    text-align: center;
+}

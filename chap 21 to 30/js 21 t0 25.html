@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+
+//Q1
+
+    // Prompt the user for their first name
+var firstName = prompt("Please enter your first name:");
+
+// Prompt the user for their last name
+var lastName = prompt("Please enter your last name:");
+
+// Merge the first name and last name into fullName
+var fullName = firstName + " " + lastName;
+
+
+alert("Hello, " + fullName + "!");
+
+
+//Q2
+
+// Prompt the user for their favorite mobile phone model
+var favoritePhoneModel = prompt("Please enter your favorite mobile phone model:");
+
+// Find the length of the user input
+var inputLength = favoritePhoneModel.length;
+
+// Display the length of the user input in the browser
+document.write("The length of your input is: " + inputLength +"<br>");
+
+//Q3
+
+
+        var nationality = "Pakistani";
+
+        // Find the index of the letter "n"
+        var result = nationality.indexOf("n");
+
+        // Display the result in the browser
+        document.write("The index of the letter 'n' in the word 'Pakistani' is: " + result +"<br>");
+
+//Q4
+
+// Define the phrase "Hello World"
+var greet = "Hello World";
+
+// Find the last index of the letter "l"
+let lastIndex = greet.lastIndexOf("l");
+
+// Display the result in the browser
+document.write("The last index of the letter 'l' in the phrase 'Hello World' is: " + lastIndex +"<br>");
+
+//Q5
+
+
+var word = "Pakistani";
+
+// Find the character at the 3rd index
+var charAtIndex = word.charAt(3);
+
+
+document.write("The character at the 3rd index in the word 'Pakistani' is: " + charAtIndex +"<br>");
+
+//Q6
+//word hyderabad
+var city="hyderabad"
+var afterReplacement;
+// Replace "Hyderabad" with "Islamabad"
+var afterReplacement = city.replace("hyderabad","Islamabad")
+document.write( "The new word after replacement is: " + afterReplacement +"<br>"+"<br>")
+
+//Q7
+
+// Define the string with multiple occurrences of "and"
+var message = "Roses are red and violets are blue and sugar is sweet and so are you.";
+
+document.write(message+"<br>")
+
+// Replace all occurrences of "and" with "&"
+var newMessage = message.replace(/and/g, "&");
+
+// Display the result in the browser
+document.write("The new message after replacement is: " + newMessage +"<br>");
+
+//Q8
+
+let string = "472";
+
+        // Convert the string to a number
+        let num = Number(string);
+
+        // Display the values and types in the browser
+        document.write("The value of str is: " + string + " and its type is: " + typeof string + "<br>");
+        document.write("The value of num is: " + num + " and its type is: " + typeof num +"<br>");
+
+//Q9
+
+// Prompt the user for input
+var userInput = prompt("Please enter some text:");
+
+// Convert the input to capital letters
+var upperCaseInput = userInput.toUpperCase();
+
+// Display the result in the browser
+document.write("Your input in capital letters is: " + upperCaseInput +"<br>");
+
+//Q10
+
+// // Prompt the user for input
+// var userInput = prompt("Enter some text:");
+
+// // Convert the input to title case
+// var titleCaseInput = toTitleCase(userInput);
+
+// // Show the result in an alert box
+// alert("Your input in title case is: " + titleCaseInput +"<br>");
+
+
+//Q11
+
+// Define the variable num
+var number = 35.36;
+
+// Convert the number to a string
+var numToStr = number.toString();
+
+// Remove the dot
+var result = numToStr.replace('.', '');
+
+// Display the result in the browser
+document.write("The result after removing the dot is: " + result);
+
+  </script>  
+</body>
+</html>
